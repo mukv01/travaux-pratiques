@@ -1,0 +1,18 @@
+<church>
+  <members>
+    <person sex="male">
+      <firstname>Frederic</firstname>
+      <lastname>Ntawiniga</lastname>
+    </person>
+    <person sex="female">
+      <firstname>Vestine</firstname>
+      <lastname>Mukeshimana</lastname>
+    </person>
+  </members>
+  <visitors>
+    <person sex="male">
+      <firstname>Caliixte</firstname>
+      <lastname>Habimana</lastname>
+    </person>
+  </visitors>
+</church>

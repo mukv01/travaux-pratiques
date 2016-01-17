@@ -1,0 +1,10 @@
+td {
+  color: #0000FF;
+  font-size: 24px;
+  font-style: italic;
+  border: 1px solid red;
+}
+
+table {
+  border: 1px solid black;
+}
