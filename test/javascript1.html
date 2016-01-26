@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    </style>
+    <script>
+      function onButton1Click(){
+        //document.getElementById('demo').innerHTML = Date();
+        document.getElementById('demo').innerHTML = "<a href='http://www.google.com' target='_blank'>Hello World</a>";
+      }
+
+      function onButton2Click(){
+        alert("Hello World");
+      }
+
+      function onButton3Click(){
+        document.getElementById('demo').innerHTML = "";
+      }
+    </script>
+  </head>
+  <body>
+
+    <h1>My First JavaScript</h1>
+
+    <button type="button" onclick="onButton1Click()">1</button>
+    <button type="button" onclick="onButton2Click()">2</button>
+    <button type="button" onclick="onButton3Click()">Clear</button>
+    <input type="text"></input>
+    <input type="checkbox"></input>
+    <input type="password"></input>  
+    <p id="demo"></p>
+
+  </body>
+</html>
